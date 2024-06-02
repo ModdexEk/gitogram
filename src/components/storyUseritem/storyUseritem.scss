@@ -1,0 +1,22 @@
+.avatar {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    border: 2px solid #A6328D;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+        border: none;
+    }
+}
+.img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.username {
+    font-size: 12px;
+    margin-top: 10px;
+}
